@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+/* função global */
+*{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* cabeçário do site */
+.site-top {
+    display: flex;
+    height: 50px;
+    width: auto;
+}
+
+/* id do texto home */
+#left{
+    align-items: left;
+    margin-left: auto;
+}
+
+/* links de redirecionamento do site */
+.links{
+    margin-top: 15px;
+    margin-right: 50px;
+    color:black;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* tamanho da logo */
+.logo{
+    height: 70px;
+}
+
+/* quando passa o mouse pelos links no cabeçário */
+.links:hover{
+    background-color: green;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+}
+
+
+   
+
